@@ -23,7 +23,7 @@
                    compression='on'
                    compressionMinSize='2048' 
                     noCompressionUserAgents='gozilla, traviata' 
-                    compressableMimeType='text/html,text/xml' />
+                    compressableMimeType='text/html,text/xml,application/json' />
 
         <Engine defaultHost='localhost' name='Catalina'>
             <Valve className='org.apache.catalina.valves.RemoteIpValve' protocolHeader='x-forwarded-proto'/>
